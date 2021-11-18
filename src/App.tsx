@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+require('dotenv').config();
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { Dashboard } from '@evoqua/react';
+import SonarQubeApi from '@evoqua/sonarqube-api';
+import React from 'react';
+
+const { SONAR_URL, SONAR_USERNAME, SONAR_PASSWORD } = process.env;
+
+export default function App() {
+  const api = new SonarQubeApi(SONAR_URL!);
+  const [loggedIn, setLoggedIn] = React.useState(false);
+  React.useEffect(() => {
+    api.login(SONAR_USERNAME!, SONAR_PASSWORD!)
+       .then(() => setLoggedIn(true));
+  });
+  return loggedIn
+    ? <Dashboard
+        projectsGetter={api}
+        metricHistoryGetter={api}
+        versionMetricsGetter={api}
+      />
+    : <div style={styles.loggingInMsg}>
+        Iniciando sesión...
+      </div>;
 }
 
-export default App;
+const styles: { [key: string]: React.CSSProperties } = {
+  loggingInMsg: {
+    display: 'grid',
+    placeItems: 'center',
+    height: '100vh',
+  },
+}
