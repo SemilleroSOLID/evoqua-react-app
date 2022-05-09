@@ -1,6 +1,7 @@
 {
   "name": "react-app",
   "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "@evoqua/react": "https://github.com/SemilleroSOLID/evoqua-react.git#236db2e3769ad966fa3bf840f7c1449b6b20e6b7",
     "@evoqua/sonarqube-api": "https://github.com/SemilleroSOLID/evoqua-sonarqube-api.git#42e6cda3948dc394b4c23c8b3ae525f97670d24d",
