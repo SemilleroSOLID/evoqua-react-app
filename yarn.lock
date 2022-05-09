@@ -1313,17 +1313,17 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@evoqua/react@https://github.com/jlopezg8/evoqua-react.git#d95cf2981ebd319b363ec999f9b9ae7b26b7e79e":
+"@evoqua/react@https://github.com/SemilleroSOLID/evoqua-react.git#236db2e3769ad966fa3bf840f7c1449b6b20e6b7":
   version "0.1.0"
-  resolved "https://github.com/jlopezg8/evoqua-react.git#d95cf2981ebd319b363ec999f9b9ae7b26b7e79e"
+  resolved "https://github.com/SemilleroSOLID/evoqua-react.git#236db2e3769ad966fa3bf840f7c1449b6b20e6b7"
   dependencies:
     plotly.js "^2.5.1"
     react-plotly.js "^2.5.1"
     react-select "^5.0.0"
 
-"@evoqua/sonarqube-api@https://github.com/jlopezg8/evoqua-sonarqube-api.git#89c18acc8e3c19ec6e46f2b8afecdbb937e787b2":
+"@evoqua/sonarqube-api@https://github.com/SemilleroSOLID/evoqua-sonarqube-api.git#42e6cda3948dc394b4c23c8b3ae525f97670d24d":
   version "1.0.0"
-  resolved "https://github.com/jlopezg8/evoqua-sonarqube-api.git#89c18acc8e3c19ec6e46f2b8afecdbb937e787b2"
+  resolved "https://github.com/SemilleroSOLID/evoqua-sonarqube-api.git#42e6cda3948dc394b4c23c8b3ae525f97670d24d"
 
 "@gar/promisify@^1.0.1":
   version "1.1.2"
@@ -4899,11 +4899,6 @@ dotenv@8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
-
-dotenv@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
-  integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
 
 draw-svg-path@^1.0.0:
   version "1.0.0"

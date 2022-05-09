@@ -1,10 +1,9 @@
 {
-  "name": "react-example",
+  "name": "react-app",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
-    "@evoqua/react": "https://github.com/jlopezg8/evoqua-react.git#d95cf2981ebd319b363ec999f9b9ae7b26b7e79e",
-    "@evoqua/sonarqube-api": "https://github.com/jlopezg8/evoqua-sonarqube-api.git#89c18acc8e3c19ec6e46f2b8afecdbb937e787b2",
+    "@evoqua/react": "https://github.com/SemilleroSOLID/evoqua-react.git#236db2e3769ad966fa3bf840f7c1449b6b20e6b7",
+    "@evoqua/sonarqube-api": "https://github.com/SemilleroSOLID/evoqua-sonarqube-api.git#42e6cda3948dc394b4c23c8b3ae525f97670d24d",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -12,7 +11,6 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "dotenv": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",

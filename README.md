@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# evoqua-react-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_evoqua_, un visualizador de la evolución de la calidad de diseño de un software basado en tubos de kiviat, que se ejecuta como una app React y que hace uso del analizador de SonarQube.
+
+La app se conecta a una instancia de SonarQube, sea local o remota, y le permite al usuario visualizar un proyecto que se haya analizado previamente.
 
 ## Available Scripts
 
